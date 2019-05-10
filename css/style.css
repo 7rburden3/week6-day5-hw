@@ -1,0 +1,40 @@
+body {
+  font-family: tahoma;
+  background-color: white;
+}
+
+form {
+  text-align: center;
+  margin: auto;
+  background-color: green;
+  padding: 20px;
+  width: fit-content;
+}
+
+div.form-wrapper {
+  padding: 10px;
+}
+
+div.center {
+  text-align: center;
+}
+
+li {
+  width: fit-content;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid red;
+  background-color: black;
+  color: white;
+
+  margin: auto;
+}
+
+ul#country-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 0.5em;
+}
