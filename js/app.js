@@ -36,6 +36,9 @@ const createCountryListItem = function (form) {
     const commonwealth = document.createElement('h6');
     commonwealth.textContent = form.commonwealth.value;
     countryListItem.appendChild(commonwealth);
+  } else {
+    const blank = document.createElement('br');
+    countryListItem.appendChild(blank);
   }
 
   return countryListItem;
