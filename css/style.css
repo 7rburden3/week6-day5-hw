@@ -38,3 +38,11 @@ ul#country-list {
   margin: auto;
   margin-top: 0.5em;
 }
+
+.country-list-item {
+  height: 13em;
+}
+
+h2 {
+  font-size: 2em;
+}
